@@ -3,22 +3,22 @@
   "generated_at": "2026-08-28",
   "package": {
     "name": "sg-writing-skill",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "owner": "qianzhu18",
     "maturity_tier": "maintained"
   },
   "intent": {
-    "description": "以孙宇晨公开写作经历中的可观察技法为参考，帮助写动人的中文情话与完整的克制叙事故事",
-    "job_to_be_done": "用短句、少量数字锚点、行为细节、物件和事实并置承载情绪，帮助用户写情话、搭故事，同时保留用户事实并维持原创边界",
-    "inputs": ["topic", "source_text", "mode", "length", "constraints"],
+    "description": "以孙宇晨公开写作经历中的可观察技法为参考，帮助写动人的中文情话、完整的克制叙事故事与同案多视角改写",
+    "job_to_be_done": "用短句、少量数字锚点、行为细节、物件和事实并置承载情绪，帮助用户写情话、搭故事、切换角色视角，同时保留用户事实并维持原创边界",
+    "inputs": ["topic", "source_text", "mode", "length", "constraints", "perspectives"],
     "outputs": ["prose", "style_notes"]
   },
   "workflow": {
-    "router": ["generate", "rewrite", "tighten", "diagnose"],
-    "gates": ["extract_constraints", "build_fact_table", "choose_purposeful_anchors", "render_iceberg_details", "run_quality_check"]
+    "router": ["generate", "rewrite", "tighten", "diagnose", "multi_perspective"],
+    "gates": ["extract_constraints", "build_fact_table", "build_pov_matrix_when_needed", "choose_purposeful_anchors", "render_iceberg_details", "run_quality_check"]
   },
   "resources": {
-    "references": ["references/style-dna.md"],
+    "references": ["references/style-dna.md", "references/multi-perspective-case-study.md"],
     "evals": ["evals/evals.json", "evals/trigger_cases.json"],
     "reports": ["reports/creation-handoff.md", "reports/prior-art-research.md", "reports/trigger-eval.json"]
   },
