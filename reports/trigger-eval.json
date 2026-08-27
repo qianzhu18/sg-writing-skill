@@ -2,16 +2,17 @@
   "ok": true,
   "generated_at": "2026-08-28",
   "skill": "sg-writing-skill",
+  "version": "1.2.0",
   "note": "Static coverage review of trigger_cases.json; no Agent invocation was performed.",
   "summary": {
-    "should_trigger_cases": 10,
+    "should_trigger_cases": 12,
     "should_not_trigger_cases": 8,
-    "near_neighbor_cases": 3,
+    "near_neighbor_cases": 4,
     "coverage": [
       "explicit package name",
       "SYC and named-author phrasing",
       "iceberg narrative and numeric anchors",
-      "generation, rewriting, tightening, and diagnosis",
+      "generation, rewriting, tightening, diagnosis, love lines, and story structure",
       "factual and professional near-neighbors"
     ]
   },

@@ -1,7 +1,7 @@
 # Creation Handoff: sg-writing-skill
 
 **Date:** 2026-08-28
-**Version:** 1.1.1
+**Version:** 1.2.0
 **Mode:** Maintained
 **Maintainer:** qianzhu18
 
@@ -14,6 +14,7 @@
 5. Uses contextual anti-pattern checks so quoted text and required formats are not destroyed mechanically.
 6. Includes output contracts, original-detail boundaries, quality checks, writing evals, and near-neighbor trigger cases.
 7. Keeps the repository documentation focused on this package and removes unrelated profile material.
+8. Reframed the README around Sun Yuchen's documented writing background, moving love lines, and complete narrative storytelling, with community praise and criticism treated as separate observations.
 
 ## Evidence boundary
 

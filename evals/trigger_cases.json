@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "skill": "sg-writing-skill",
   "purpose": "静态触发覆盖样例；不是模型运行结果",
   "should_trigger": [
@@ -52,6 +52,16 @@
       "id": "trigger-10",
       "input": "把‘我舍不得离开这座城市’收紧成冰山式写法，给我三个版本",
       "notes": "短文本收紧任务"
+    },
+    {
+      "id": "trigger-11",
+      "input": "教我写一句不油腻但很动人的情话，不要出现‘我爱你’",
+      "notes": "情话写作任务"
+    },
+    {
+      "id": "trigger-12",
+      "input": "用孙宇晨的新概念作文写作底子，帮我把这段经历写成一个有冲突和结尾的故事",
+      "notes": "作者背景触发 + 叙事结构任务"
     }
   ],
   "should_not_trigger": [
@@ -114,6 +124,12 @@
       "input": "把我的故事写得像某个作家，但不要出现他的名字",
       "should_trigger": false,
       "notes": "缺少具体高层技法，需先澄清目标"
+    },
+    {
+      "id": "near-04",
+      "input": "帮我写一段甜甜的土味情话，越夸张越好",
+      "should_trigger": false,
+      "notes": "目标是夸张土味表达，与克制叙事方向相反"
     }
   ]
 }

@@ -1,7 +1,7 @@
 interface:
   display_name: "SG 克制叙事写作"
-  short_description: "中文冰山式散文：短句、少量数字锚点、行为细节与克制收束"
-  default_prompt: "用 SG 写作写一段关于等待的原创中文散文，只输出成稿"
+  short_description: "孙宇晨写作技法：动人情话、完整故事、细节叙事与克制收束"
+  default_prompt: "用 SG 写作写一段动人的原创情话，只输出成稿"
 
 compatibility:
   adapter_targets:
@@ -11,7 +11,7 @@ compatibility:
     - agent-skills-compatible
 
 name: sg-writing-skill
-version: 1.1.0
+version: 1.2.0
 
 inputs:
   - name: topic
@@ -44,6 +44,8 @@ triggers:
   - "克制散文"
   - "冰山叙事"
   - "数字锚点散文"
+  - "动人情话"
+  - "写好叙事故事"
   - "去掉AI味和直白情绪"
 
 excludes:

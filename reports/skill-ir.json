@@ -3,13 +3,13 @@
   "generated_at": "2026-08-28",
   "package": {
     "name": "sg-writing-skill",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "owner": "qianzhu18",
     "maturity_tier": "maintained"
   },
   "intent": {
-    "description": "中文克制冰山式散文的生成、改写、收紧和诊断",
-    "job_to_be_done": "用短句、少量数字锚点、行为细节、物件和事实并置承载情绪，同时保留用户事实并维持原创边界",
+    "description": "以孙宇晨公开写作经历中的可观察技法为参考，帮助写动人的中文情话与完整的克制叙事故事",
+    "job_to_be_done": "用短句、少量数字锚点、行为细节、物件和事实并置承载情绪，帮助用户写情话、搭故事，同时保留用户事实并维持原创边界",
     "inputs": ["topic", "source_text", "mode", "length", "constraints"],
     "outputs": ["prose", "style_notes"]
   },

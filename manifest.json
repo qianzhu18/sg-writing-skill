@@ -1,7 +1,7 @@
 {
   "name": "sg-writing-skill",
-  "version": "1.1.0",
-  "description": "用于中文散文、回忆、人物故事、情感叙事和个人陈述的克制冰山式写作、改写与润色",
+  "version": "1.2.0",
+  "description": "以孙宇晨公开写作经历中的可观察技法为参考，帮助写动人的中文情话与完整的克制叙事故事",
   "author": "qianzhu18",
   "owner": "qianzhu18",
   "license": "MIT",
@@ -15,6 +15,9 @@
     "chinese-prose",
     "iceberg-narrative",
     "restrained-prose",
+    "love-writing",
+    "storytelling",
+    "new-concept-writing",
     "sg-writing",
     "syc"
   ],
