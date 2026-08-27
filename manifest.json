@@ -1,0 +1,38 @@
+{
+  "name": "sg-writing-skill",
+  "version": "1.1.0",
+  "description": "用于中文散文、回忆、人物故事、情感叙事和个人陈述的克制冰山式写作、改写与润色",
+  "author": "qianzhu18",
+  "owner": "qianzhu18",
+  "license": "MIT",
+  "homepage": "https://github.com/qianzhu18/sg-writing-skill",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qianzhu18/sg-writing-skill"
+  },
+  "keywords": [
+    "writing",
+    "chinese-prose",
+    "iceberg-narrative",
+    "restrained-prose",
+    "sg-writing",
+    "syc"
+  ],
+  "updated_at": "2026-08-28",
+  "status": "active",
+  "maturity_tier": "maintained",
+  "release_gates": {
+    "trigger_cases": "evals/trigger_cases.json",
+    "writing_evals": "evals/evals.json",
+    "static_checks": "json syntax and metadata consistency"
+  },
+  "files": [
+    "SKILL.md",
+    "agents/interface.yaml",
+    "evals/evals.json",
+    "evals/trigger_cases.json",
+    "references/style-dna.md",
+    "README.md",
+    "LICENSE"
+  ]
+}

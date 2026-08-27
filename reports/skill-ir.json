@@ -1,0 +1,30 @@
+{
+  "schema_version": "2.0.0-sg-writing",
+  "generated_at": "2026-08-28",
+  "package": {
+    "name": "sg-writing-skill",
+    "version": "1.1.0",
+    "owner": "qianzhu18",
+    "maturity_tier": "maintained"
+  },
+  "intent": {
+    "description": "中文克制冰山式散文的生成、改写、收紧和诊断",
+    "job_to_be_done": "用短句、少量数字锚点、行为细节、物件和事实并置承载情绪，同时保留用户事实并维持原创边界",
+    "inputs": ["topic", "source_text", "mode", "length", "constraints"],
+    "outputs": ["prose", "style_notes"]
+  },
+  "workflow": {
+    "router": ["generate", "rewrite", "tighten", "diagnose"],
+    "gates": ["extract_constraints", "build_fact_table", "choose_purposeful_anchors", "render_iceberg_details", "run_quality_check"]
+  },
+  "resources": {
+    "references": ["references/style-dna.md"],
+    "evals": ["evals/evals.json", "evals/trigger_cases.json"],
+    "reports": ["reports/creation-handoff.md", "reports/prior-art-research.md", "reports/trigger-eval.json"]
+  },
+  "evidence_boundary": {
+    "static_cases_are_benchmarks": false,
+    "human_review_needed": true,
+    "public_claim_policy": "Only claim that the package was statically checked until model runs or human review provide stronger evidence."
+  }
+}

@@ -1,0 +1,53 @@
+interface:
+  display_name: "SG 克制叙事写作"
+  short_description: "中文冰山式散文：短句、少量数字锚点、行为细节与克制收束"
+  default_prompt: "用 SG 写作写一段关于等待的原创中文散文，只输出成稿"
+
+compatibility:
+  adapter_targets:
+    - claude
+    - openai
+    - generic
+    - agent-skills-compatible
+
+name: sg-writing-skill
+version: 1.1.0
+
+inputs:
+  - name: topic
+    description: 写作主题、场景、人物关系或情感冲突
+    required: true
+  - name: source_text
+    description: 需要改写、收紧或诊断的原始文本（可选）
+    required: false
+  - name: mode
+    description: generate、rewrite、tighten 或 diagnose（可选，默认自动判断）
+    required: false
+  - name: length
+    description: 目标字数或长度范围（可选，默认尊重用户上下文）
+    required: false
+  - name: constraints
+    description: 必须保留的事实、视角、格式、禁用项或发布场景（可选）
+    required: false
+
+outputs:
+  - name: prose
+    description: 原创中文散文或改写后的成稿
+  - name: style_notes
+    description: 仅在用户要求分析或说明时返回的简短技法说明
+
+triggers:
+  - "SG写作"
+  - "sg-writing-skill"
+  - "SYC风格"
+  - "孙宇晨文风"
+  - "克制散文"
+  - "冰山叙事"
+  - "数字锚点散文"
+  - "去掉AI味和直白情绪"
+
+excludes:
+  - 新闻报道的事实核查与发布
+  - 技术文档和学术论文
+  - 以转化为首要目标的营销文案
+  - 冒充真实人物或复现受版权保护的原文

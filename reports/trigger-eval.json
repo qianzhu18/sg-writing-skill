@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "generated_at": "2026-08-28",
+  "skill": "sg-writing-skill",
+  "note": "Static coverage review of trigger_cases.json; no Agent invocation was performed.",
+  "summary": {
+    "should_trigger_cases": 10,
+    "should_not_trigger_cases": 8,
+    "near_neighbor_cases": 3,
+    "coverage": [
+      "explicit package name",
+      "SYC and named-author phrasing",
+      "iceberg narrative and numeric anchors",
+      "generation, rewriting, tightening, and diagnosis",
+      "factual and professional near-neighbors"
+    ]
+  },
+  "evidence_boundary": "These cases describe intended routing and are not a measured trigger rate."
+}
