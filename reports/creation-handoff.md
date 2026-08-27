@@ -1,7 +1,7 @@
 # Creation Handoff: sg-writing-skill
 
 **Date:** 2026-08-28
-**Version:** 1.3.0
+**Version:** 1.4.0
 **Mode:** Maintained
 **Maintainer:** qianzhu18
 
@@ -15,8 +15,9 @@
 6. Includes output contracts, original-detail boundaries, quality checks, writing evals, and near-neighbor trigger cases.
 7. Keeps the repository documentation focused on this package and removes unrelated profile material.
 8. Reframed the README around Sun Yuchen's documented writing background, moving love lines, and complete narrative storytelling, with community praise and criticism treated as separate observations.
-9. Added a multi-perspective case study that turns the supplied relationship narrative into four clearly fictional role-based viewpoints without reproducing private details or impersonating real people.
-10. Added a POV matrix, multi-perspective routing mode, trigger cases, writing eval, and metadata links for the new reference.
+9. Replaced the short multi-perspective fragments with a 7,197-character story, close to the supplied source's 7,432 characters, covering Sun Yuchen, Jing Tian, Zhang Jike, a hotel manager, and an assistant across one shared event chain.
+10. Added explicit source coordinates for the official novel page, X post, and `HEJustinSun/my-girlfriend-jingtian-latex` repository in both README and the case study.
+11. Added source-length measurement (`85%–120%` by default), cross-view anchors, longform triggers, and a revised five-perspective writing eval.
 
 ## Evidence boundary
 

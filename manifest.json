@@ -1,7 +1,7 @@
 {
   "name": "sg-writing-skill",
-  "version": "1.3.0",
-  "description": "以孙宇晨公开写作经历中的可观察技法为参考，帮助写动人的中文情话、完整的克制叙事故事与同案多视角改写",
+  "version": "1.4.0",
+  "description": "以孙宇晨公开写作经历及《我的女友景甜》的可观察技法为参考，帮助写动人的中文情话、完整叙事与同篇幅多视角长文",
   "author": "qianzhu18",
   "owner": "qianzhu18",
   "license": "MIT",
@@ -21,7 +21,9 @@
     "sg-writing",
     "syc",
     "multi-perspective",
-    "narrative-voice"
+    "narrative-voice",
+    "my-girlfriend-jingtian",
+    "longform-writing"
   ],
   "updated_at": "2026-08-28",
   "status": "active",

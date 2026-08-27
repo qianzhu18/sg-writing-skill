@@ -13,6 +13,18 @@
 
 本 Skill 学的是写作技法，不是冒充作者。它不复制原文、不代替孙宇晨本人发声，也不把虚构的恋爱细节或现实争议写成事实。
 
+## 近期代表文本：《我的女友景甜》
+
+2026 年 8 月，孙宇晨公开发布长篇叙事《我的女友景甜》。这篇文章把长期保存的旧照片、包场电影、海岛旅行、私人飞机、酒店空层、亲密关系、婚育安排、五千万美元与一次没有立刻得到回答的电话编进同一条叙事线，是理解 SG 写作中“数字锚点、资源反差、物件回环、事实与情绪错位”的重要近期样本。
+
+原作可以从以下三个入口阅读：
+
+- [孙宇晨官网 Novel 页面：《我的女友景甜》](https://www.hejustinsun.com/novel)
+- [孙宇晨发布的 X 原帖](https://x.com/justinsuntron/status/2092932777612390850)
+- [HEJustinSun/my-girlfriend-jingtian-latex](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex) —— 原作者公开的 XeLaTeX 排版仓库，包含 [`main.tex`](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/blob/main/main.tex) 和[排版 PDF](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex/blob/main/%E6%88%91%E7%9A%84%E5%A5%B3%E5%8F%8B%E6%99%AF%E7%94%9C.pdf)
+
+本仓库不镜像原文全文，而是提供一篇接近原作篇幅的原创练习：[《没有人住的那一层》：五视角长篇叙事](references/multi-perspective-case-study.md)。它让孙宇晨、景甜、张继科、酒店管理员和助手分别站在自己能看见的现场里，重述同一条事件链。文中所有新增心理、对白与动机均明确属于文学化虚构，不代表真人发言。
+
 ## 为什么是孙宇晨
 
 孙宇晨（Justin Sun）不仅以创业者身份被公众熟知，也有一段明确的文学训练经历：2007 年，他获得第九届全国新概念作文大赛一等奖，并因此获得北京大学自主招生加分机会。澎湃新闻对他的采访记录了这段经历，也记录了他对《萌芽》、韩寒、王小波和李敖等文学影响的回忆。
@@ -87,7 +99,9 @@
 
 同一件事换视角，不是简单替换人称，而是重新分配“谁看见了什么”。伴侣看到关系里的压力，酒店管理员看到清洁单和门卡，助手看到行程与取消记录，被提及的公众人物只能确认自己的记忆。信息边界不同，故事才会出现新的层次。
 
-仓库中的[多视角叙事案例](references/multi-perspective-case-study.md)提供了一份完整练习：它根据用户提供的公开文本提取共同事件框架，再用四个角色位置做原创改写，并明确标注文学化虚构。涉及现实人物时，本 Skill 不冒充本人、不捏造私密事实，也不复现原文。
+仓库中的[五视角长篇叙事案例](references/multi-perspective-case-study.md)以《我的女友景甜》为原作坐标，正文约七千二百字，与用户提供的约七千四百字原文处在同一篇幅级别。孙宇晨、景甜、张继科、酒店管理员和助手共享同一条事件链，但分别拥有不同的现场、盲区、物件和结尾。
+
+这份案例同时展示一条重要规则：用户要求“跟原文差不多长”时，先测量源文本，默认把目标控制在源文本字符数的 `85%–120%`；不能用若干三百字短片段代替一篇完整长文。
 
 ## 核心写法
 
@@ -133,6 +147,10 @@ npx skills add qianzhu18/sg-writing-skill --list
 ```
 
 ```text
+参考《我的女友景甜》的事件密度，把同一个故事写成孙宇晨、景甜、张继科、酒店管理员和助手五个视角，篇幅与原文接近，明确标注文学化虚构。
+```
+
+```text
 请诊断这段文字为什么像 AI，从情话、场景、句子节奏、数字和结尾五方面给建议，先不要重写。
 ```
 
@@ -159,6 +177,9 @@ npx skills add qianzhu18/sg-writing-skill --list
 
 以下资料用于理解写作背景和社区语境，不代表本项目对其中全部观点、争议或事实作背书：
 
+- [孙宇晨官网：《我的女友景甜》](https://www.hejustinsun.com/novel) —— 官网的 Novel 页面，直接展示文章标题、作者与正文入口。
+- [X 原帖：《我的女友景甜》](https://x.com/justinsuntron/status/2092932777612390850) —— 孙宇晨账号发布的社交媒体版本。
+- [HEJustinSun/my-girlfriend-jingtian-latex](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex) —— 原作者公开的排版工程与 PDF，是本文的代码仓库来源坐标。
 - [澎湃新闻：新概念作文大赛获奖者：很难再出韩寒，光环渐褪有的不再写作](https://m.thepaper.cn/newsDetail_forward_1534872) —— 记录孙宇晨获得第九届新概念作文大赛一等奖、北大自主招生加分和早年文学经历。
 - [PANews：孙宇晨：一个怀揣文艺青年梦的历史专业毕业的 NFT 顶级玩家](https://www.panewslab.com/zh/articles/f3er8rep67m7) —— 汇总其新概念作文、北大求学和早期写作背景；其中部分内容属于媒体叙述。
 - [《一道论证题》公开转载文本](https://blog.sina.cn/dpool/blog/s/blog_58f8e1860100wyxn.html) —— 作为带有第一人称自述性质的早期写作样本，使用时应注意转载来源和文本版权。
@@ -183,7 +204,7 @@ sg-writing-skill/
 
 ## English
 
-`sg-writing-skill` is a Chinese writing Agent Skill inspired by the publicly documented writing background of Sun Yuchen, a first-prize winner of the ninth New Concept Writing Competition. It teaches restrained love lines and complete narrative stories through scene-first openings, purposeful details, numeric anchors, physical actions, contrast, pacing, and quiet endings.
+`sg-writing-skill` is a Chinese writing Agent Skill inspired by the publicly documented writing background of Sun Yuchen, a first-prize winner of the ninth New Concept Writing Competition. It teaches restrained love lines and complete narrative stories through scene-first openings, purposeful details, numeric anchors, physical actions, contrast, pacing, and quiet endings. The repository also studies his recent long-form piece *My Girlfriend Jing Tian* and includes an original, explicitly fictional five-perspective case study of comparable length.
 
 It is a technique-oriented writing tool, not an impersonation or text-reproduction tool. It supports generation, rewriting, tightening, and diagnosis while preserving user-supplied facts and separating fictional details from real-world claims.
 

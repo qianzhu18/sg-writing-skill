@@ -1,6 +1,6 @@
 interface:
   display_name: "SG 克制叙事写作"
-  short_description: "SG克制叙事：动人情话、完整故事与同案多视角改写"
+  short_description: "SG克制叙事：情话、长篇故事与同案五视角改写"
   default_prompt: "用 SG 写作写一段动人的原创情话，只输出成稿"
 
 compatibility:
@@ -11,7 +11,7 @@ compatibility:
     - agent-skills-compatible
 
 name: sg-writing-skill
-version: 1.3.0
+version: 1.4.0
 
 inputs:
   - name: topic
@@ -21,7 +21,7 @@ inputs:
     description: 需要改写、收紧或诊断的原始文本（可选）
     required: false
   - name: mode
-    description: generate、rewrite、tighten 或 diagnose（可选，默认自动判断）
+    description: generate、rewrite、tighten、diagnose 或 multi_perspective（可选，默认自动判断）
     required: false
   - name: length
     description: 目标字数或长度范围（可选，默认尊重用户上下文）
@@ -52,6 +52,9 @@ triggers:
   - "多视角叙事"
   - "同一个故事换几个视角"
   - "角色视角改写"
+  - "我的女友景甜"
+  - "孙宇晨景甜张继科多视角"
+  - "跟原文差不多长"
   - "去掉AI味和直白情绪"
 
 excludes:

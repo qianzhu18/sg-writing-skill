@@ -2,10 +2,10 @@
   "ok": true,
   "generated_at": "2026-08-28",
   "skill": "sg-writing-skill",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "note": "Static coverage review of trigger_cases.json; no Agent invocation was performed.",
   "summary": {
-    "should_trigger_cases": 14,
+    "should_trigger_cases": 16,
     "should_not_trigger_cases": 8,
     "near_neighbor_cases": 5,
     "coverage": [
@@ -14,6 +14,7 @@
       "iceberg narrative and numeric anchors",
       "generation, rewriting, tightening, diagnosis, love lines, and story structure",
       "same-event multi-perspective rewriting with role and information boundaries",
+      "My Girlfriend Jing Tian references, five-viewpoint longform, and source-length matching",
       "factual and professional near-neighbors"
     ]
   },
